@@ -1,0 +1,35 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+<C-d>	init.vim	/^nnoremap <C-d> <C-d>zz$/;"	m
+<C-h>	hop-config.vim	/^nnoremap <C-h> :HopWordMW<CR>$/;"	m
+<C-h><C-h>	hop-config.vim	/^nnoremap <C-h><C-h> :HopChar1MW<CR>$/;"	m
+<C-h><C-p>	hop-config.vim	/^nnoremap <C-h><C-p> :HopPatternMW<CR>$/;"	m
+<C-t><C-f>	NERDTree-config.vim	/^nnoremap <C-t><C-f> :NERDTreeFind<CR>$/;"	m
+<C-t><C-f>	init_bk.vim	/^nnoremap <C-t><C-f> :NERDTreeFind<CR>$/;"	m
+<C-t><C-t>	NERDTree-config.vim	/^nnoremap <C-t><C-t> :NERDTreeToggleVCS<CR>$/;"	m
+<C-t><C-t>	init_bk.vim	/^nnoremap <C-t><C-t> :call AllTabNERDTreeToggleVCS()<CR>$/;"	m
+<C-u>	init.vim	/^nnoremap <C-u> <C-u>zz$/;"	m
+<leader>f?	fzf-config.vim	/^nnoremap <leader>f? :GFiles? $/;"	m
+<leader>fa	fzf-config.vim	/^nnoremap <leader>fa :Ag $/;"	m
+<leader>fb	fzf-config.vim	/^nnoremap <leader>fb :BLines $/;"	m
+<leader>fc	fzf-config.vim	/^nnoremap <leader>fc :Commits$/;"	m
+<leader>ff	fzf-config.vim	/^nnoremap <leader>ff :Files $/;"	m
+<leader>fg	fzf-config.vim	/^nnoremap <leader>fg :GFiles $/;"	m
+<leader>fl	fzf-config.vim	/^nnoremap <leader>fl :Lines $/;"	m
+<leader>ft	fzf-config.vim	/^nnoremap <leader>ft :Tags<cr>$/;"	m
+AllTabNERDTreeToggleVCS	NERDTree-config.vim	/^function! AllTabNERDTreeToggleVCS()$/;"	f
+AllTabNERDTreeToggleVCS	init_bk.vim	/^function! AllTabNERDTreeToggleVCS()$/;"	f
+g:SuperTabDefaultCompletionType	init.vim	/^let g:SuperTabDefaultCompletionType = "<c-n>"$/;"	v
+g:coc_global_extensions	coc-config.vim	/^let g:coc_global_extensions = [$/;"	v
+g:startify_custom_header	init.vim	/^let g:startify_custom_header = 'startify#pad(startify#fortune#boxed())'$/;"	v
+g:startify_lists	init.vim	/^let g:startify_lists = [$/;"	v
+g:startify_session_persistence	init.vim	/^let g:startify_session_persistence = 1$/;"	v
+j	init.vim	/^nnoremap j gj$/;"	m
+j	init_bk.vim	/^nnoremap j gj$/;"	m
+k	init.vim	/^nnoremap k gk$/;"	m
+k	init_bk.vim	/^nnoremap k gk$/;"	m
+mapleader	init.vim	/^let mapleader = "\\<space>"$/;"	v
